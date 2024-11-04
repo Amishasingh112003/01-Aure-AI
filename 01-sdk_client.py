@@ -1,3 +1,10 @@
+"""We need to set an environment variable .This must have :
+  * endpoint of the azure as : "AI_SERVICE_ENDPOINT"
+  * API key as : "AI_SERVICE_KEY"
+  * AI_SERVICE_ENDPOINT='https://xxxxxazu.cognitivervices.azure.com/'
+  * AI_SERVICE_KEY='DcccvvvbbxxxEFnNrPjRy3o0urZ3xxxx73d8prTm4oxrXl78Bxxxxx9AKACYcccccJ3ccAACOGqFUd' 
+"""
+
 #this one is the clientsdk.py
 from dotenv import load_dotenv
 import os
